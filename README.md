@@ -1,20 +1,18 @@
-# Garry & Karen Wedding Guestbook v0.1
-Based on the proven Pad13 Photo Booth v0.2 CameraX capture implementation.
+# Garry & Karen Wedding Guestbook — Android v0.3
 
-## Flow
-- Main guestbook screen with horizontally scrolling entry thumbnails
-- Add to Our Guestbook
-- 3-2-1 front-camera capture
-- Retake / use photo
-- Stylus handwriting canvas or typed-message alternative
-- Guest name(s)
-- Save a composed wedding guestbook page
-- Tap thumbnails to browse entries full-screen
-- Previous / next navigation
+Designed for the OSCAL Pad 13 in landscape mode.
 
-## Storage
-Original photographs: app external files / WeddingGuestbook/OriginalPhotos
-Finished guestbook pages: app external files / WeddingGuestbook/Pages
-Finished pages are also copied to Pictures/GarryKarenWeddingGuestbook for easy access.
+## v0.3
+- Keeps the proven v0.2 CameraX camera implementation.
+- Photo -> keep/retake -> guestbook writing flow.
+- Larger handwritten message canvas for the tablet stylus.
+- Smoother handwriting using interpolated pen strokes.
+- Pen, eraser, undo, redo and clear controls.
+- Optional typed-message mode.
+- Guest name field.
+- Saves the original photograph and a finished wedding guestbook page.
+- Finished guestbook pages also appear in the Android Pictures gallery.
+- Thank-you overlay automatically returns the tablet to the welcome screen.
+- Camera is released while guests write, improving stability on the Pad 13.
 
-Designed offline-first for the OSCAL Pad 13 / Android 12.
+Wedding date: 30 December 2026.
